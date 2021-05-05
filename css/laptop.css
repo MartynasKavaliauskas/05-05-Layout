@@ -1,2 +1,9 @@
 @media screen and (min-width: 991px) {
+  .content {
+    grid-template-areas:
+      "hero top-left top-right"
+      "hero bottom-left bottom-right";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
 }
